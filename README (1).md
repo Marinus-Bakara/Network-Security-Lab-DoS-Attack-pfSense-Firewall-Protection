@@ -1,14 +1,8 @@
-# 🔐 Network Security Lab - DoS Attack Simulation & pfSense Firewall Protection
-
-![pfSense](https://img.shields.io/badge/pfSense-2.8.1-blue)
-![Kali](https://img.shields.io/badge/Kali-Linux-red)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-orange)
-![VMware](https://img.shields.io/badge/VMware-Workstation%2017-green)
-![Status](https://img.shields.io/badge/Status-Complete-success)
+# Network Security Lab - DoS Attack Simulation & pfSense Firewall Protection
 
 ---
 
-## 📋 Project Overview
+## Project Overview
 
 This project is a virtual cybersecurity home lab that demonstrates how a **Denial of Service (DoS) attack** is launched, monitored, and blocked using a **pfSense firewall**. The lab was built entirely on VMware Workstation 17 using three virtual machines to simulate a real-world network environment.
 
@@ -43,24 +37,18 @@ The goal was to:
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
-| Tool | Purpose |
-|------|---------|
-| VMware Workstation 17 | Virtualization platform |
-| pfSense CE 2.8.1 | Firewall and router |
-| Kali Linux | Attack machine |
-| Ubuntu 22.04 | Victim machine |
-| hping3 | DoS attack tool |
-| Wireshark | Network traffic analysis |
+
+
+** VMware Workstation 17 ** 
+** pfSense CE 2.8.1**  
+** Kali Linux ** 
+** Ubuntu 22.04 ** 
+** hping3 ** 
+** Wireshark**  
 
 ---
-
-## 🔧 Lab Setup Steps
-
-### 1. VMware Network Configuration
-- **VMnet1** (Host-Only) → Internal LAN network for Ubuntu
-- **VMnet8** (NAT) → External WAN network for Kali
 
 ### 2. pfSense Configuration
 - Assigned **WAN** interface to VMnet8 → IP: `192.168.127.141`
@@ -82,7 +70,7 @@ ping 192.168.47.128
 
 ---
 
-## ⚔️ Attack Simulation
+## Attack Simulation
 
 ### DoS Attack from Kali using hping3
 
