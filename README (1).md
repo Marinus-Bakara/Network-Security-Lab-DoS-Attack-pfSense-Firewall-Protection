@@ -102,7 +102,7 @@ Wireshark on Ubuntu showed thousands of TCP packets flooding in per second:
 - Packets: RST, ACK, SYN flood visible
 
 ### After the Attack was Blocked
-![Wireshark After Block](images/08-wireshark-capture_after_the_dos_attack.png)
+![Wireshark After Block](https://github.com/Marinus-Bakara/-Network-Security-Lab---DoS-Attack-pfSense-Firewall-Protection/blob/main/images/08-wireshark-capture%20after%20the%20dos%20attack.png)
 
 After pfSense rule was applied:
 - TCP Retransmissions visible showing packets not getting through
