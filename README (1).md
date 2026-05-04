@@ -121,7 +121,7 @@ pfSense CE 2.8.1 running on VMware with:
 - LAN interface UP → `192.168.47.10`
 
 ### Firewall Rule to Block DoS Attack
-![Firewall Rule](images/03-firewall-rules_blocked.png)
+![Firewall Rule](https://github.com/Marinus-Bakara/-Network-Security-Lab---DoS-Attack-pfSense-Firewall-Protection/blob/main/images/03-firewall-rules%20blocked.png)
 
 | Field | Value |
 |-------|-------|
