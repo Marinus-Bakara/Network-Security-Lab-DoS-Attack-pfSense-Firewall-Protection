@@ -93,7 +93,7 @@ sudo hping3 -S --flood -V -p 80 192.168.47.128
 ## 📡 Traffic Monitoring with Wireshark
 
 ### During the Attack
-![Wireshark During Attack](images/05-wireshark-capture_during_dos_attack.png)
+![Wireshark During Attack](https://github.com/Marinus-Bakara/-Network-Security-Lab---DoS-Attack-pfSense-Firewall-Protection/blob/main/images/05-wireshark-capture%20during%20dos%20attack.png)
 
 Wireshark on Ubuntu showed thousands of TCP packets flooding in per second:
 - Source: `192.168.47.1` (pfSense LAN gateway)
