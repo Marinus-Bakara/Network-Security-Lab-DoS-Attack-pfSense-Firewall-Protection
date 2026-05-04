@@ -74,7 +74,7 @@ ping 192.168.47.128
 
 ### DoS Attack from Kali using hping3
 
-![DoS Attack Running](images/04-dos-attack.png)
+![DoS Attack Running](https://github.com/Marinus-Bakara/-Network-Security-Lab---DoS-Attack-pfSense-Firewall-Protection/blob/main/images/04-dos-attack.png)
 
 ```bash
 sudo hping3 -S --flood -V -p 80 192.168.47.128
