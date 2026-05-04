@@ -14,7 +14,7 @@ The goal was to:
 
 ---
 
-## 🖥️ Network Topology
+## Network Topology
 
 ![Network Topology](images/01-network-topology.png)
 
@@ -26,7 +26,7 @@ The goal was to:
 
 ---
 
-## 📊 Lab Environment
+## Lab Environment
 
 | Virtual Machine | Operating System | IP Address | Role | VMware Network |
 |----------------|-----------------|------------|------|----------------|
@@ -90,7 +90,7 @@ sudo hping3 -S --flood -V -p 80 192.168.47.128
 
 ---
 
-## 📡 Traffic Monitoring with Wireshark
+##  Traffic Monitoring with Wireshark
 
 ### During the Attack
 ![Wireshark During Attack](https://github.com/Marinus-Bakara/-Network-Security-Lab---DoS-Attack-pfSense-Firewall-Protection/blob/main/images/05-wireshark-capture%20during%20dos%20attack.png)
@@ -111,7 +111,7 @@ After pfSense rule was applied:
 
 ---
 
-## 🛡️ pfSense Firewall Configuration
+##  pfSense Firewall Configuration
 
 ### pfSense Dashboard
 ![pfSense Dashboard](images/02-pfsense-dashboard.png)
@@ -135,13 +135,13 @@ pfSense CE 2.8.1 running on VMware with:
 
 ---
 
-## ✅ Results - Attack Blocked
+##  Results - Attack Blocked
 
 ### pfSense Firewall Logs
 ![Attack Blocked](images/07-attack-blocked.png)
 
 pfSense logs confirmed all packets from Kali were blocked:
-- **Action:** ❌ Block
+- **Action:** Block
 - **Interface:** WAN
 - **Source:** 192.168.127.130 (Kali)
 - **Rule:** Block private networks from WAN
@@ -151,31 +151,10 @@ pfSense logs confirmed all packets from Kali were blocked:
 
 **After firewall rule:** Zero packets reached Ubuntu from Kali
 
----
-
-## 📁 Repository Structure
-
-```
-Network-Security-Lab/
-│
-├── README.md
-│
-├── images/
-│   ├── 01-network-topology.png
-│   ├── 02-pfsense-dashboard.png
-│   ├── 03-firewall-rules_blocked.png
-│   ├── 04-dos-attack.png
-│   ├── 05-wireshark-capture_during_dos_attack.png
-│   ├── 07-attack-blocked.png
-│   └── 08-wireshark-capture_after_the_dos_attack.png
-│
-└── configs/
-    └── pfsense-firewall-rules.txt
-```
 
 ---
 
-## 💡 Key Learnings
+## Key Learnings
 
 1. **Network Segmentation** - Separating internal and external networks using pfSense as a gateway
 2. **DoS Attack Mechanics** - How SYN flood attacks overwhelm a victim machine
@@ -186,36 +165,36 @@ Network-Security-Lab/
 
 ---
 
-## 🚀 Skills Demonstrated
+## Skills Demonstrated
 
-- ✅ Network Security
-- ✅ Firewall Configuration (pfSense)
-- ✅ DoS/DDoS Attack Simulation
-- ✅ Network Traffic Analysis (Wireshark)
-- ✅ Linux Administration (Ubuntu & Kali)
-- ✅ VMware Virtualization
-- ✅ Network Troubleshooting
-- ✅ Security Log Analysis
-- ✅ Virtual Network Design
-- ✅ Security Documentation
-
----
-
-## 🔮 Future Improvements
-
-- [ ] Install Suricata IPS for automatic attack detection
-- [ ] Add DMZ zone with a web server
-- [ ] Configure OpenVPN for remote access
-- [ ] Simulate DDoS from multiple IPs
-- [ ] Install pfBlockerNG for geo-blocking
-- [ ] Add VLAN segmentation
+-  Network Security
+-  Firewall Configuration (pfSense)
+-  DoS/DDoS Attack Simulation
+-  Network Traffic Analysis (Wireshark)
+- Linux Administration (Ubuntu & Kali)
+- VMware Virtualization
+- Network Troubleshooting
+- Security Log Analysis
+- Virtual Network Design
+-  Security Documentation
 
 ---
 
-## 👤 Author
+## Future Improvements
+
+Install Suricata IPS for automatic attack detection
+Add DMZ zone with a web server
+Configure OpenVPN for remote access
+Simulate DDoS from multiple IPs
+Install pfBlockerNG for geo-blocking
+Add VLAN segmentation
+
+---
+
+## Author
 
 **Marinus Bakara**
-- GitHub: [@Marinus-Bakara](https://github.com/Marinus-Bakara)
+- Gmail: bakaramarinus3@gmail.com
 
 ---
 
