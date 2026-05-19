@@ -18,11 +18,6 @@ The goal was to:
 
 ![Network Topology](images/01-network-topology.png)
 
-```
-[Kali - Attacker]                [pfSense Firewall]             [Ubuntu - Victim]
-192.168.127.130 (VMnet8) ──WAN──192.168.127.141                192.168.47.128
-                                 192.168.47.10  ──LAN────────── (VMnet1 Host Only)
-```
 
 ---
 
